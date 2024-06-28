@@ -6,6 +6,8 @@ export default defineConfig({
     build: {
         rollupOptions: {
             output: {
+                dir: 'dist',
+                entryFileNames: 'growthbook.js',
                 manualChunks: undefined,
             },
         },
